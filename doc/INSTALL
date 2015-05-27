@@ -1,0 +1,38 @@
+Requirements:
+
+    - Moodle 1.9+ and compliant Database
+	OR
+	- Moodle 2.5+ and compliant Database
+	
+Installation:
+
+1. Untar to $(moodle_root_path)/blocks.
+   (e.g. tar -zxvf boaidp.tar.gz)
+
+2. Stablish the correct permissions for web server access for the block's directory 
+    tree.
+   (e.g. apache user; chown -R apache:apache blocks/boaidp) 
+
+3. Navigate to your Moodle site and login as Admin, by means your favorite 
+    internet browser.
+
+4. In the Site Admin Block, click on the notifications link and review there 
+    isn't any fail or problem message and the database tables are installed correctly.
+
+FAQ: 
+
+1. Is this block able to harvest OAI records? No so far, this block is only focus on 
+	storing OAI records associated with each moodle course.
+2. Is there any way to preload some OAI fields? On Moodle 1.9 version is automatic, but 
+	so far on Moodle 2.x we	only let manual load by configuring each block instance 
+	within its course.
+
+
+Any comments are welcome.
+
+------------------------------------------
+Miguel González Laredo
+Virtual Learning Center CEVUG
+University of Granada
+
+mglaredo@ugr.es
